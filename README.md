@@ -46,7 +46,7 @@ machine learning, and dashboarding to predict heart disease risk.
   </tr>
   <tr>
     <td>📊 Excel</td>
-    <td>Data cleaning, formulas (VLOOKUP, IF, HLOOKUP), pivot tables, KPIs</td>
+    <td>Data cleaning, pivot tables, KPIs</td>
   </tr>
   <tr>
     <td>🗄️ SQL</td>
@@ -97,7 +97,7 @@ machine learning, and dashboarding to predict heart disease risk.
       <li><code>smoke_intensity</code></li>
     </ul>
   </li>
-  <li>Handled imbalance using <b>SMOTE + Tomek Links</b></li>
+  <li>Handled imbalance using <b>SMOTE</b></li>
   <li>Tested models:
     <ul>
       <li>Logistic Regression ⭐ (Final Model)</li>
@@ -164,8 +164,8 @@ Threshold tuning was applied to improve <b>recall</b> for better detection of hi
 
 <h3>📊 Model Comparison</h3>
 <p align="center">
-  <img src="images/model_comparison.png" width="600"><br>
-  <img src="images/model_comparison_compare.png" width="600">
+  <img src="images/model_comparision.png" width="600"><br>
+  <img src="images/model_comparision_after_feature selection.png" width="600">
 </p>
 
 <h3>🎯 Confusion Matrix</h3>
@@ -175,12 +175,12 @@ Threshold tuning was applied to improve <b>recall</b> for better detection of hi
 
 <h3>📉 Calibration Analysis</h3>
 <p align="center">
-  <img src="images/calibration_comparison.png" width="500">
+  <img src="images/calibration_comparision.png" width="500">
 </p>
 
 <h3>🔍 SHAP Explainability</h3>
 <p align="center">
-  <img src="images/SHAP_comparison.png" width="600">
+  <img src="images/shap_comparision.png" width="600">
 </p>
 
 <h3>📊 Excel Dashboard & Pivot Analysis</h3>
@@ -264,7 +264,6 @@ framingham-heart-disease-analysis/
 
 <ol>
   <li>Clone the repository</li>
-  <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
   <li>Open notebook in Jupyter</li>
 </ol>
 
@@ -282,4 +281,4 @@ framingham-heart-disease-analysis/
 
 ---
 
-<h2 align="center">⭐ If you like this project, give it a star!</h2>
+<h2 align="center"></b>⭐ If you like this project, give it a star!</h2>
